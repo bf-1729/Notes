@@ -38,9 +38,10 @@ const ViewNotes = () => {
   return (
     <div>
       <Navbar />
-      <div className='view'>
+
+      <div className='notes_container'>
         <h2>All Notes</h2>
-        <div className='notes_container'>
+        <div className='single_notes'>
           {loading ? (
             <div className='spinner'></div>
           ) : notes.length === 0 ? (

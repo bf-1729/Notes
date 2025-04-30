@@ -22,9 +22,8 @@ const Notes = () => {
   };
   
   return (
-    <div className='main'>
+    <div className=''>
       <Navbar/>
-      
         <div>
           <form onSubmit={submit} className='post_container'>
         <h2>Create Note</h2>
